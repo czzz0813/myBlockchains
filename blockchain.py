@@ -15,7 +15,7 @@ class Blockchain:
         self.chain = []
         self.nodes = set()
 
-        # 创建创世块
+        # 创建创世块 abc
         self.new_block(previous_hash='1', proof=100)
 
     def register_node(self, address: str) -> None:
