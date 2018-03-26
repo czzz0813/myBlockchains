@@ -10,6 +10,7 @@ from flask import Flask, jsonify, request
 
 
 class Blockchain:
+    
     def __init__(self):
         self.current_transactions = []
         self.chain = []
@@ -93,7 +94,7 @@ class Blockchain:
 
     def new_block(self, proof: int, previous_hash: Optional[str]) -> Dict[str, Any]:
         """
-        生成新块
+        生成新块123123
 
         :param proof: The proof given by the Proof of Work algorithm
         :param previous_hash: Hash of previous Block
